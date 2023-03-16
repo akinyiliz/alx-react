@@ -5,7 +5,7 @@ export default function printBestStudents(object) {
 
 	const filtered = seq.filter((student) => {
 		student.firstName.charAt(0).toUpperCase();
-		return student.score > 70;
+		return student.score < 70;
 	});
 
 	function capFirstLetter(string) {
